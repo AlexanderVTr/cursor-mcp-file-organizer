@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "rules": {
+    "downloads": {
+      "path": "~/Downloads",
+      "organizeBy": {
+        "images": {
+          "extensions": [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".bmp", ".tiff", ".ico"],
+          "destination": "~/Downloads/Pictures"
+        },
+        "documents": {
+          "extensions": [".pdf", ".doc", ".docx", ".txt", ".rtf", ".xls", ".xlsx", ".ppt", ".pptx", ".csv", ".md", ".json", ".xml"],
+          "destination": "~/Downloads/Documents"
+        },
+        "archives": {
+          "extensions": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2", ".xz", ".iso", ".dmg"],
+          "destination": "~/Downloads/Archives"
+        },
+        "code": {
+          "extensions": [".js", ".ts", ".py", ".java", ".cpp", ".c", ".h", ".html", ".css", ".php", ".rb", ".go", ".rs", ".swift", ".kt", ".scala"],
+          "destination": "~/Downloads/Code"
+        },
+        "media": {
+          "extensions": [".mp4", ".mp3", ".wav", ".avi", ".mov", ".mkv", ".flv", ".webm", ".m4v", ".m4a", ".aac", ".ogg", ".wma"],
+          "destination": "~/Downloads/Media"
+        },
+        "design": {
+          "extensions": [".psd", ".ai", ".sketch", ".fig", ".xd", ".eps"],
+          "destination": "~/Downloads/Design"
+        },
+        "databases": {
+          "extensions": [".sql", ".sqlite", ".db", ".mdb", ".accdb"],
+          "destination": "~/Downloads/Databases"
+        },
+        "fonts": {
+          "extensions": [".ttf", ".otf", ".woff", ".woff2", ".eot"],
+          "destination": "~/Downloads/Fonts"
+        }
+      },
+      "options": {
+        "createDestinationFolders": true,
+        "moveInsteadOfCopy": true,
+        "organizeByDate": true,
+        "dateFormat": "YYYY-MM-DD",
+        "keepOriginalExtension": true,
+        "skipExistingFiles": true
+      }
+    }
+  }
+} 

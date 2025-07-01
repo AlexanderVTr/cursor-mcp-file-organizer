@@ -153,3 +153,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Cursor IDE team for the MCP protocol
 - Node.js community for the excellent tools and libraries
+
+Certified by MCP Review https://mcpreview.com/mcp-servers/alexandervtr/cursor-mcp-file-organizer

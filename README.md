@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/alexandervtr-cursor-mcp-file-organizer-badge.png)](https://mseep.ai/app/alexandervtr-cursor-mcp-file-organizer)
+
 # Cursor MCP File Organizer
 
 A Model Context Protocol (MCP) server for organizing files in your Downloads folder using Cursor IDE.
